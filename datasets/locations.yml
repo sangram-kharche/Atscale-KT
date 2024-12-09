@@ -1,0 +1,12 @@
+unique_name: locations
+object_type: dataset
+label: locations
+columns:
+  - name: LocationID
+    data_type: string
+  - name: City
+    data_type: string
+  - name: State
+    data_type: string
+connection_id: con_hive_metastore_default
+table: locations

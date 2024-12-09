@@ -1,0 +1,40 @@
+unique_name: date_dim
+object_type: dataset
+label: date_dim
+columns:
+  - name: DateNum
+    data_type: long
+  - name: Date
+    data_type: date
+  - name: Year
+    data_type: long
+  - name: YearMonthNum
+    data_type: long
+  - name: Calendar_Quarter
+    data_type: string
+  - name: MonthNum
+    data_type: long
+  - name: MonthName
+    data_type: string
+  - name: MonthShortName
+    data_type: string
+  - name: WeekNum
+    data_type: long
+  - name: DayNumOfYear
+    data_type: long
+  - name: DayNumOfMonth
+    data_type: long
+  - name: DayNumOfWeek
+    data_type: long
+  - name: DayName
+    data_type: string
+  - name: DayShortName
+    data_type: string
+  - name: Quarter
+    data_type: long
+  - name: YearQuarterNum
+    data_type: long
+  - name: DayNumOfQuarter
+    data_type: long
+connection_id: con_hive_metastore_default
+table: date_dim

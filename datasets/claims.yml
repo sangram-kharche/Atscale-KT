@@ -1,0 +1,24 @@
+unique_name: claims
+object_type: dataset
+label: claims
+columns:
+  - name: ClaimID
+    data_type: string
+  - name: PolicyID
+    data_type: string
+  - name: ClaimDate
+    data_type: date
+  - name: ClaimStatus
+    data_type: string
+  - name: ClaimantName
+    data_type: string
+  - name: LossDate
+    data_type: date
+  - name: ReportedDate
+    data_type: date
+  - name: LocationID
+    data_type: string
+  - name: VehicleID
+    data_type: long
+connection_id: con_hive_metastore_default
+table: claims

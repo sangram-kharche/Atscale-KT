@@ -1,0 +1,16 @@
+unique_name: policies
+object_type: dataset
+label: policies
+columns:
+  - name: PolicyID
+    data_type: string
+  - name: PolicyholderName
+    data_type: string
+  - name: PremiumAmount
+    data_type: double
+  - name: StartDate
+    data_type: date
+  - name: EndDate
+    data_type: date
+connection_id: con_hive_metastore_default
+table: policies

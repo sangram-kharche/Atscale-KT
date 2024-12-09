@@ -1,0 +1,14 @@
+unique_name: vehicles
+object_type: dataset
+label: vehicles
+columns:
+  - name: VehicleID
+    data_type: long
+  - name: VehicleType
+    data_type: string
+  - name: Make
+    data_type: string
+  - name: Model
+    data_type: string
+connection_id: con_hive_metastore_default
+table: vehicles

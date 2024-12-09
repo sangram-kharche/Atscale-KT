@@ -1,0 +1,24 @@
+unique_name: transactions
+object_type: dataset
+label: transactions
+columns:
+  - name: TransactionID
+    data_type: string
+  - name: ClaimID
+    data_type: string
+  - name: TransactionDate
+    data_type: date
+  - name: Amount
+    data_type: double
+  - name: CostCategory
+    data_type: string
+  - name: CostType
+    data_type: string
+  - name: CostSubType
+    data_type: string
+  - name: PolicyID
+    data_type: string
+  - name: LocationID
+    data_type: string
+connection_id: con_hive_metastore_default
+table: transactions

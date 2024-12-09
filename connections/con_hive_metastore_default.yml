@@ -1,0 +1,6 @@
+unique_name: con_hive_metastore_default
+object_type: connection
+label: con_hive_metastore_default
+as_connection: Databrics2
+database: hive_metastore
+schema: default
