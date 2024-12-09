@@ -64,3 +64,27 @@ relationships:
     to:
       dimension: PolicyID
       level: PolicyID
+  - unique_name: policies_StartDate_to_Date Dimension_Date
+    from:
+      dataset: policies
+      join_columns:
+        - StartDate
+    to:
+      dimension: Date Dimension
+      level: Date
+  - unique_name: transactions_TransactionDate_to_Date Dimension_Date
+    from:
+      dataset: transactions
+      join_columns:
+        - TransactionDate
+    to:
+      dimension: Date Dimension
+      level: Date
+  - unique_name: claims_ReportedDate_to_Date Dimension_Date
+    from:
+      dataset: claims
+      join_columns:
+        - ReportedDate
+    to:
+      dimension: Date Dimension
+      level: Date
