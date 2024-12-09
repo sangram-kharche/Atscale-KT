@@ -38,3 +38,19 @@ relationships:
     to:
       dimension: ClaimID
       level: ClaimID Level
+  - unique_name: transactions_PolicyID_to_Cost Dim_PolicyID
+    from:
+      dataset: transactions
+      join_columns:
+        - PolicyID
+    to:
+      dimension: Cost Dim
+      level: PolicyID
+  - unique_name: policies_PolicyID_to_Cost Dim_PolicyID
+    from:
+      dataset: policies
+      join_columns:
+        - PolicyID
+    to:
+      dimension: Cost Dim
+      level: PolicyID

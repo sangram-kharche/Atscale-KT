@@ -1,0 +1,45 @@
+unique_name: Cost Dim
+object_type: dimension
+label: Cost Dim
+hierarchies:
+  - unique_name: Cost Dim Hierarchy
+    label: Cost Dim Hierarchy
+    levels:
+      - unique_name: Cost Category
+      - unique_name: Cost Type
+      - unique_name: Cost Sub-Type
+      - unique_name: PolicyID
+level_attributes:
+  - unique_name: Cost Category
+    label: Cost Category
+    contains_unique_names: false
+    dataset: transactions
+    is_unique_key: false
+    key_columns:
+      - CostCategory
+    name_column: CostCategory
+  - unique_name: Cost Type
+    label: Cost Type
+    contains_unique_names: false
+    dataset: transactions
+    is_unique_key: false
+    key_columns:
+      - CostType
+    name_column: CostType
+  - unique_name: Cost Sub-Type
+    label: Cost Sub-Type
+    contains_unique_names: false
+    dataset: transactions
+    is_unique_key: false
+    key_columns:
+      - CostSubType
+    name_column: CostSubType
+  - unique_name: PolicyID
+    label: PolicyID
+    contains_unique_names: false
+    dataset: transactions
+    is_unique_key: false
+    key_columns:
+      - PolicyID
+    name_column: PolicyID
+type: standard
