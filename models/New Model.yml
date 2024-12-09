@@ -56,3 +56,11 @@ relationships:
     to:
       dimension: Cost Dim
       level: PolicyID
+  - unique_name: transactions_PolicyID_to_PolicyID_PolicyID
+    from:
+      dataset: transactions
+      join_columns:
+        - PolicyID
+    to:
+      dimension: PolicyID
+      level: PolicyID
