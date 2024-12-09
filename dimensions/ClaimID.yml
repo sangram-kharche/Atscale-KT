@@ -1,0 +1,18 @@
+unique_name: ClaimID
+object_type: dimension
+label: ClaimID
+hierarchies:
+  - unique_name: ClaimID
+    label: ClaimID
+    levels:
+      - unique_name: ClaimID Level
+level_attributes:
+  - unique_name: ClaimID Level
+    label: ClaimID Level
+    contains_unique_names: false
+    dataset: claims
+    is_unique_key: false
+    key_columns:
+      - ClaimID
+    name_column: ClaimID
+type: standard

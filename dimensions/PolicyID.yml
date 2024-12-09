@@ -1,0 +1,18 @@
+unique_name: PolicyID
+object_type: dimension
+label: PolicyID
+hierarchies:
+  - unique_name: PolicyID
+    label: PolicyID
+    levels:
+      - unique_name: PolicyID
+level_attributes:
+  - unique_name: PolicyID
+    label: PolicyID
+    contains_unique_names: false
+    dataset: policies
+    is_unique_key: false
+    key_columns:
+      - PolicyID
+    name_column: PolicyholderName
+type: standard

@@ -1,0 +1,40 @@
+unique_name: New Model
+object_type: model
+label: New Model
+dimensions: []
+metrics:
+  - unique_name: Total Cost
+    folder: Claims Metrics
+relationships:
+  - unique_name: policies_PolicyID_to_PolicyID_PolicyID
+    from:
+      dataset: policies
+      join_columns:
+        - PolicyID
+    to:
+      dimension: PolicyID
+      level: PolicyID
+  - unique_name: claims_PolicyID_to_PolicyID_PolicyID
+    from:
+      dataset: claims
+      join_columns:
+        - PolicyID
+    to:
+      dimension: PolicyID
+      level: PolicyID
+  - unique_name: transactions_ClaimID_to_ClaimID_ClaimID Level
+    from:
+      dataset: transactions
+      join_columns:
+        - ClaimID
+    to:
+      dimension: ClaimID
+      level: ClaimID Level
+  - unique_name: claims_ClaimID_to_ClaimID_ClaimID Level
+    from:
+      dataset: claims
+      join_columns:
+        - ClaimID
+    to:
+      dimension: ClaimID
+      level: ClaimID Level

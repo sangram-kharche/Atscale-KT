@@ -1,0 +1,6 @@
+unique_name: Total Cost
+object_type: metric
+label: Total Cost
+calculation_method: sum
+column: Amount
+dataset: transactions
