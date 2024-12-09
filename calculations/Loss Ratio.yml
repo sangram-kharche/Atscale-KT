@@ -1,0 +1,7 @@
+unique_name: Loss Ratio
+object_type: metric_calc
+label: Loss Ratio
+expression: '[Measures].[Total Cost]/[Measures].[Total Premium]'
+format: percent
+is_hidden: false
+mdx_aggregate_function: AVG

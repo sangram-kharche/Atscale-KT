@@ -5,6 +5,8 @@ dimensions: []
 metrics:
   - unique_name: Total Cost
     folder: Claims Metrics
+  - unique_name: Total Premium
+  - unique_name: Loss Ratio
 relationships:
   - unique_name: policies_PolicyID_to_PolicyID_PolicyID
     from:
