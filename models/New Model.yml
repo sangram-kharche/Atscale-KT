@@ -7,6 +7,7 @@ metrics:
     folder: Claims Metrics
   - unique_name: Total Premium
   - unique_name: Loss Ratio
+  - unique_name: Avg claims
 relationships:
   - unique_name: policies_PolicyID_to_PolicyID_PolicyID
     from:

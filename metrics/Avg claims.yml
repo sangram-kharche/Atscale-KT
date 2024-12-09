@@ -1,0 +1,6 @@
+unique_name: Avg claims
+object_type: metric
+label: Avg claims
+calculation_method: average
+column: Amount
+dataset: transactions
